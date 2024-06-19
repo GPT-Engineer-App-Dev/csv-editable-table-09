@@ -13,6 +13,9 @@ const Index = () => {
           <Link as={RouterLink} to="/about" margin="0 1rem" color="white">
             About
           </Link>
+          <Link as={RouterLink} to="/csv-editor" margin="0 1rem" color="white">
+            CSV Editor
+          </Link>
         </Box>
       </Flex>
       <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
